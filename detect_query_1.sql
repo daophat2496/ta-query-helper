@@ -1,0 +1,1 @@
+SELECT 1 FROM staging.testcases WHERE ssor != 'tosca' AND lastmodifiedtimestamp IS NULL LIMIT 1;
